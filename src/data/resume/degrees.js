@@ -1,15 +1,15 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'Санкт-Петербургский политехнический университет',
+    degree: 'Бакалавр. Математика и компьютерные науки: суперкомпьютерные технологии',
+    link: 'https://english.spbstu.ru/university/',
+    year: 2024, // Предположительный год окончания, если поступили в 2021 и учитесь 4 года
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'ФинтехХаб ЦБ РФ',
+    degree: 'Финансовые технологии и разработка платежных систем',
+    link: 'https://cbr.ru/fintech/fin_hub',
+    year: 2025, // Укажите год окончания или предполагаемую дату
   },
 ];
 

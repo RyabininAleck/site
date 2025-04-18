@@ -62,12 +62,12 @@ const Skills = ({ skills, categories }) => {
 
   return (
     <div className="skills">
-      <div className="link-to" id="skills" />
+      <div className="link-to" id="навыки" />
       <div className="title">
-        <h3>Skills</h3>
+        <h3>Навыки</h3>
         <p>
-          Note: I think these sections are silly, but everyone seems to have
-          one. Here is a *mostly* honest overview of my skills.
+          PS: Я считаю эти разделы глупыми, но, похоже, они есть у каждого.
+          Вот *в основном* честный обзор моих навыков.
         </p>
       </div>
       <div className="skill-button-container">{getButtons()}</div>

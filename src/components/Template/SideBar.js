@@ -12,29 +12,28 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
+        <h2>Алексадр Рябинин</h2>
         <p>
-          <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
+          <a href="mailto:ryabininaleck@yandex.ru">ryabininaleck@yandex.ru</a>
         </p>
       </header>
     </section>
 
     <section className="blurb">
-      <h2>About</h2>
+      <h2>Обо мне</h2>
       <p>
-        Hi, I&apos;m Michael. I am a{' '}
-        <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
-        alumnus, and the co-founder and CTO of{' '}
-        <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I
-        was VP of Engineering at <a href="https://usesmileid.com">SmileID</a>,
-        co-founder and CTO of <a href="https://arthena.com">Arthena</a>, and
-        co-founded <a href="https://matroid.com">Matroid</a>.
+        Привет. Я Рябинин Александр, Go разработчик и DeFi энтузиаст.
+        Бакалавр по направлению Mathematics and Computer Science:
+        <a href="https://iccs.spbstu.ru/edu/02.03.01/02.03.01_01/"> Supercomputer Technologies</a> в
+        <a href="https://english.spbstu.ru/university/"> SPbPU </a>
+        и прошёл обучение в <a href="https://cbr.ru/fintech/fin_hub/">ЦБ РФ</a>.
+        А также являюсь соучредителем <a href="https://">AI assist Lab</a>.
       </p>
       <ul className="actions">
         <li>
           {!window.location.pathname.includes('/resume') ? (
             <Link to="/resume" className="button">
-              Learn More
+              Перейти к резюме
             </Link>
           ) : (
             <Link to="/about" className="button">
@@ -48,7 +47,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.
+        &copy; Александр Рябинин <Link to="/">arl.com</Link>.
       </p>
     </section>
   </section>

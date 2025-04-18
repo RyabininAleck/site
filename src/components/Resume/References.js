@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 const References = () => (
   <div className="references">
-    <div className="link-to" id="references" />
+    <div className="link-to" id="рекомендации" />
     <div className="title">
       <Link to="/contact">
-        <h3>References are available upon request</h3>
+        {/* <h3>Ссылки предоставляются по запросу</h3> */}
       </Link>
     </div>
   </div>

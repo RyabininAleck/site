@@ -5,35 +5,32 @@ import Main from '../layouts/Main';
 
 const Index = () => (
   <Main
-    description={
-      "Michael D'Angelo's personal website. New York based Stanford ICME graduate, "
-      + 'VP of Engineering at Smile Identity, co-founder of Arthena and Matroid, and YC Alumni.'
-    }
+    description=" Александр Рябинин — Golang разработчик и DeFi энтузиаст. Бакалавр МКН по суперкомпьютерным технологиям, студент финтех хаба ЦБ. Преподаватель ИИ и SPE в СПбПУ, "
   >
     <article className="post" id="index">
       <header>
         <div className="title">
           <h2>
-            <Link to="/">About this site</Link>
+            <Link to="/">Привет!</Link>
           </h2>
           <p>
-            A beautiful, responsive, statically-generated, react application
-            written with modern Javascript.
+            Это сайт обо мне и моих достижениях :)
           </p>
         </div>
       </header>
       <p>
         {' '}
-        Welcome to my website. Please feel free to read more{' '}
-        <Link to="/about">about me</Link>, or you can check out my{' '}
-        <Link to="/resume">resume</Link>, <Link to="/projects">projects</Link>,{' '}
-        view <Link to="/stats">site statistics</Link>, or{' '}
-        <Link to="/contact">contact</Link> me.
+        Я РАД ПОЗНАКОМИТЬСЯ С ТОБОЙ!
+      </p>
+      <p>
+        Можешь узнать что-то <Link to="/about">обо мне</Link>,{' '}
+        прочитать мое <Link to="/resume">резюме</Link>, ознакомиться с некоторыми <Link to="/projects">проектами</Link>,{' '}
+        и  <Link to="/contact">связаться</Link> со мной.
       </p>
       <p>
         {' '}
-        Source available{' '}
-        <a href="https://github.com/mldangelo/personal-site">here</a>.
+        Шаблон сайта{' '}
+        <a href="https://github.com/mldangelo/personal-site">тут</a>.
       </p>
     </article>
   </Main>

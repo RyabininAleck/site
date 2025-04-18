@@ -1,27 +1,27 @@
 const routes = [
   {
     index: true,
-    label: "Michael D'Angelo",
+    label: 'Александр Рябинин',
     path: '/',
   },
   {
-    label: 'About',
+    label: 'Обо мне',
     path: '/about',
   },
   {
-    label: 'Resume',
+    label: 'Резюме',
     path: '/resume',
   },
   {
-    label: 'Projects',
+    label: 'Проекты',
     path: '/projects',
   },
   {
-    label: 'Stats',
+    label: 'Статистика',
     path: '/stats',
   },
   {
-    label: 'Contact',
+    label: 'Контакты',
     path: '/contact',
   },
 ];

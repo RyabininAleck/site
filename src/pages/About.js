@@ -17,18 +17,18 @@ const About = () => {
 
   const count = markdown
     .split(/\s+/)
-    .map((s) => s.replace(/\W/g, ''))
+    .map((s) => s.replace(/[^\p{L}\p{N}_]/gu, ''))
     .filter((s) => s.length).length;
 
   return (
-    <Main title="About" description="Learn about Michael D'Angelo">
+    <Main title="About" description="Александр Рябинин: кратко о себе">
       <article className="post markdown" id="about">
         <header>
           <div className="title">
             <h2>
-              <Link to="/about">About Me</Link>
+              <Link to="/about">Обо мне</Link>
             </h2>
-            <p>(in about {count} words)</p>
+            <p>(В {count} словах)</p>
           </div>
         </header>
         <Markdown>{markdown}</Markdown>
