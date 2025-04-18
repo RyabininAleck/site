@@ -36,3 +36,5 @@ For a static export without deploying to GitHub Pages:
   ```bash
   npm run predeploy
   ```
+
+https://www.youtube.com/watch?v=nq3ZEvMYsl0
