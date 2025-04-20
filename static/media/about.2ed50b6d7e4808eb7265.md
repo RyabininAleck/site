@@ -43,7 +43,7 @@
 - Хожу в горы 🏔
 - Делаю [трейлраннинг](https://www.sportmaster.ru/media/articles/33543129/?utm_referrer=https://yandex.ru/) 🏃‍♂️
 - Занимаюсь [fysm йогой](https://youtu.be/IyQuAJgpozs?si=9rhKXao4DplmAoaX), большим теннисом и [чиром](https://t.me/stopSidet/18)
-- Исследую старые каменоломни)))
+- Исследую старые каменоломни
 - [Хост](https://www.couchsurfing.com/people/alexander-ruabinin) спб в [каучсерфе](https://about.couchsurfing.com/about/how-it-works/)
 
 # Путешествия

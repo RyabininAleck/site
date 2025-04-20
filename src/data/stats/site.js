@@ -8,9 +8,9 @@ import dayjs from 'dayjs';
 // todo
 const data = [
   {
-    label: 'Last updated at',
+    label: 'Последнее обновление',
     key: 'pushed_at',
-    link: 'https://github.com/mldangelo/personal-site/commits',
+    link: 'https://github.com/ryabininaleck/site/commits',
     format: (x) => dayjs(x).format('MMMM DD, YYYY'),
   },
 ];

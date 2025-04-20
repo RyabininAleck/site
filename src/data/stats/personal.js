@@ -71,7 +71,7 @@ const data = [
 
   {
     key: 'days_in_development',
-    label: 'Дней в разработке',
+    label: 'Дней в разработке на Go',
     value: <DaysInGoDevelopment />,
   },
   {
