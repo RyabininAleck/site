@@ -37,7 +37,7 @@ const SideBar = () => (
             </Link>
           ) : (
             <Link to="/about" className="button">
-              About Me
+              Больше обо мне
             </Link>
           )}
         </li>
@@ -47,7 +47,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Александр Рябинин <Link to="/">arl.com</Link>.
+        &copy; Александр Рябинин <Link to="/">ryabininaleck@yandex.ru</Link>.
       </p>
     </section>
   </section>

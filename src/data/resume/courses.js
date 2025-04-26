@@ -5,6 +5,12 @@ const courses = [
     link: 'https://deusops.com/classbook',
     university: 'ITMO',
   },
+  {
+    title: 'PostgreSQL 16 DEV1',
+    number: 'PostgreSQL',
+    link: 'https://postgrespro.ru/education/courses/DEV1',
+    university: 'Postgres PRO',
+  },
   // {
   //   title: 'Machine Learning',
   //   number: 'CS 229',

@@ -46,7 +46,7 @@ const work = [
     name: 'I Advert',
     position: 'Go developer',
     url: 'https://i-advert.biz/',
-    startDate: '2022-05-01',
+    startDate: '2022-03-01',
     endDate: '2023-01-01',
     summary: 'Разработка системы programmatic ads (openRTB) в I Advert.',
     highlights: [

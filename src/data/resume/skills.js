@@ -1,5 +1,5 @@
 const skills = [
-  { title: 'Golang', competency: 4, category: ['Programming Languages'] },
+  { title: 'Golang', competency: 5, category: ['Programming Languages'] },
   { title: 'Python', competency: 4, category: ['Programming Languages', 'ML'] },
   { title: 'Haskell', competency: 2, category: ['Programming Languages'] },
   { title: 'C++', competency: 2, category: ['Programming Languages'] },
@@ -13,30 +13,31 @@ const skills = [
   { title: 'GCP', competency: 3, category: ['DevOps'] },
   { title: 'S3', competency: 3, category: ['DevOps'] },
   { title: 'Prometheus', competency: 3, category: ['DevOps'] },
-  { title: 'Docker', competency: 4, category: ['DevOps'] },
+  { title: 'Docker', competency: 5, category: ['DevOps'] },
   { title: 'Werf', competency: 3, category: ['DevOps'] },
   { title: 'Linux', competency: 3, category: ['DevOps'] },
 
   // Backend и архитектура
-  { title: 'RabbitMQ', competency: 4, category: ['Backend'] },
-  { title: 'GRPC', competency: 4, category: ['Backend', 'Architecture'] },
-  { title: 'REST API', competency: 4, category: ['Backend', 'Architecture'] },
-  { title: 'Nakama', competency: 2, category: ['Backend', 'GameDev'] },
+  { title: 'RabbitMQ', competency: 4, category: ['Architecture'] },
+  { title: 'GRPC', competency: 5, category: ['Architecture'] },
+  { title: 'REST API', competency: 4, category: ['Architecture'] },
+  { title: 'Nakama', competency: 2, category: ['GameDev'] },
 
   // Базы данных
-  { title: 'PostgreSQL', competency: 4, category: ['Databases'] },
+  { title: 'PostgreSQL', competency: 5, category: ['Databases'] },
   { title: 'Redis', competency: 3, category: ['Databases'] },
-  { title: 'ClickHouse', competency: 3, category: ['Databases'] },
+  { title: 'ClickHouse', competency: 5, category: ['Databases'] },
   { title: 'MongoDB', competency: 3, category: ['Databases'] },
 
   // Машинное обучение и автоматизация
   { title: 'TensorFlow', competency: 2, category: ['ML'] },
   { title: 'n8n', competency: 3, category: ['Automation', 'ML'] },
+  { title: 'OpenAI API', competency: 4, category: ['ML'] },
 
   // Frontend и веб
   { title: 'React JS', competency: 3, category: ['Frontend'] },
-  { title: 'HTML', competency: 3, category: ['Frontend'] },
-  { title: 'SSR', competency: 4, category: ['Frontend', 'Architecture'] },
+  { title: 'HTML/CSS/JS', competency: 3, category: ['Frontend'] },
+  { title: 'SSR', competency: 5, category: ['Frontend', 'Architecture'] },
 
   // Blockchain и SDK
   { title: 'Atom SDK', competency: 2, category: ['Blockchain'] },
