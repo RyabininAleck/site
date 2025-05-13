@@ -19,14 +19,15 @@ const skills = [
 
   // Backend и архитектура
   { title: 'RabbitMQ', competency: 4, category: ['Architecture'] },
+  { title: 'MPC', competency: 5, category: ['Architecture'] },
   { title: 'GRPC', competency: 5, category: ['Architecture'] },
   { title: 'REST API', competency: 4, category: ['Architecture'] },
   { title: 'Nakama', competency: 2, category: ['GameDev'] },
 
   // Базы данных
   { title: 'PostgreSQL', competency: 5, category: ['Databases'] },
-  { title: 'Redis', competency: 3, category: ['Databases'] },
   { title: 'ClickHouse', competency: 5, category: ['Databases'] },
+  { title: 'Redis', competency: 3, category: ['Databases'] },
   { title: 'MongoDB', competency: 3, category: ['Databases'] },
 
   // Машинное обучение и автоматизация
@@ -41,6 +42,7 @@ const skills = [
 
   // Blockchain и SDK
   { title: 'Atom SDK', competency: 2, category: ['Blockchain'] },
+  { title: 'FHE', competency: 2, category: ['Databases', 'ML'] },
   // {
   //   title: 'Javascript',
   //   competency: 4,
